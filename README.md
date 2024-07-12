@@ -47,7 +47,7 @@ To create the data sets to achieve the objective of this project, we analyzed tr
 The X DataSet comprises tracks from top artists provided by ChartMetrics. This dataset includes tracks that have achieved hit status and others that have not, providing a robust basis for training our predictive model.
 
 **Run File:**
-Final - Alisha - Nico - Consolidate And CleanUp Data For ML.ipynb
+Final file here: Final - Alisha - Nico - Consolidate And CleanUp Data For ML-wVisuals.ipynb
 
 Note: This takes a very long time to run because we are processing a large data set & joining Artists, Tracks & Charts data to create all of the base CSV data files we will later combine.
 
@@ -56,7 +56,7 @@ Note: This takes a very long time to run because we are processing a large data 
 The Y DataSet includes new releases sourced from ChartMetrics that were less known at the time of discovery. This dataset consists of new artists and obscure artists, making it ideal for testing the model's ability to predict potential hits.
 
 **Run File:**
-Final - Alisha - Danny Group 9 - New Releases To Predict If It Is Hit From Spotify.ipynb
+Final file here - Final - Alisha - Danny Group 9 - New Releases To Predict If It Is Hit From Spotify.ipynb
 
 Note: This contains some of our initial EDA to analyze newer tracks to determine what being a Hit means by looking at a variance of High Hit probablity vs Low Hit Probability based on editorial inclusion, chart & playlist mentions.
 
@@ -81,7 +81,7 @@ After thorough data analysis, we standardized the dataset to include fields that
 - `region_codes`
 
 **Run File:**
-Final - Alisha - ML Model Train And Optimization.ipynb
+Final File here: Final - Alisha - ML Model Train And Optimization.ipynb
 
 ## Model Development and Evaluation
 * Model: Utilized RandomForestClassifier due to its effectiveness in managing overfitting and its robustness with large datasets.
