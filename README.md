@@ -35,7 +35,7 @@ matplotlib  # Optional for plotting
 
 To create the data sets to achieve the objective of this project, we analyzed tracks from top artists, who have historically produced hit tracks, to train our predictive model. Once trained, the model is then used to analyze newer, lesser-known releases that have potential to become hits. We aim to apply our model to predict the hit potential of the last year's newer, lesser-known releases, and then compare those predictions with actual outcomes to validate the accuracy and effectiveness of our model.
 
-#### Step 1 - This file creates the X Data Set
+### Step 1 - This file creates the X Data Set
 
 The X DataSet comprises tracks from top artists provided by ChartMetrics. This dataset includes tracks that have achieved hit status and others that have not, providing a robust basis for training our predictive model.
 
@@ -47,7 +47,7 @@ Go to this url to open https://github.com/AlishaOutridge/Team_9/blob/4ae891ab7a3
 
 Note: This takes a very long time to run because we are processing a large data set & joining Artists, Tracks & Charts data to create all of the base CSV data files we will later combine.
 
-#### Step 2 - This file creates the Y DataSet
+### Step 2 - This file creates the Y DataSet
 
 The Y DataSet includes new releases sourced from ChartMetrics that were less known at the time of discovery. This dataset consists of new artists and obscure artists, making it ideal for testing the model's ability to predict potential hits.
 
@@ -59,7 +59,7 @@ Go to this url to open  https://github.com/AlishaOutridge/Team_9/blob/4ae891ab7a
 
 Note: This contains some of our initial EDA to analyze newer tracks to determine what being a Hit means by looking at a variance of High Hit probablity vs Low Hit Probability based on editorial inclusion, chart & playlist mentions.
 
-#### Step 3 - This file consolidates the Data into 1 Standardized dataframe & then feeds it into the ML model
+### Step 3 - This file consolidates the Data into 1 Standardized dataframe & then feeds it into the ML model
 
 After thorough data analysis, we standardized the dataset to include fields that consistently provided reliable indicators of a song's potential to be a hit. These fields were selected based on their reliability across all tracks and their contribution to the model's accuracy as we optimized the model try out different data sources.
 
